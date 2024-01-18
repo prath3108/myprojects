@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT REGISTRATION</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="con">
+        <form action="register" method="post">
+            <fieldset id="register-fieldset">
+                <legend>Registration Form</legend>           
+            
+                <div class="uname">
+                    <label for="">USERNAME</label>
+                    <input type="text" name="uname" placeholder="username" minlength="6">
+                </div>
+
+                <div class="pass">
+                    <label for="">PASSWORD</label>
+                    <input type="password" name="pass" placeholder="password" minlength="8">
+                </div>
+
+                <div class="email">
+                    <label for="">EMAIL</label>
+                    <input type="email" name="email" placeholder="email id">
+                </div>
+
+                <div class="dob">
+                    <label for="">DATE OF BIRTH</label>
+                    <input type="text" name="dob" placeholder="yyyy/dd/mm" minlength="6">
+                </div>
+                <div class="gender">
+                    <label for="">GENDER</label>
+                    <input type="radio" name="gender" value="male" id="gender-male">
+                    <label for="gender-male">Male</label>
+                    <input type="radio" name="gender" value="female" id="gender-female">
+                    <label for="gender-female">Female</label>
+                </div>
+                <div class="buttons">
+                    <button type="submit">Register</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+
+</body>
+</html>

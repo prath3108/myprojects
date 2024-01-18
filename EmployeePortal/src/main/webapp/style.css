@@ -1,0 +1,121 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.con{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(https://static.vecteezy.com/system/resources/thumbnails/013/087/516/small/diagonal-golden-line-glass-cube-on-black-background-illustration-of-website-banner-poster-sign-corporate-business-social-media-post-billboard-agency-advertising-media-motion-video-animation-wave-vector.jpg);
+    background-size: cover;
+}  
+
+form{
+    background-color:green;
+    border-radius: 10px;       
+    padding: 10px;
+    box-shadow: 10px -10px 10px yellowgreen;
+}
+
+.login-fieldset{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
+    border-radius: 5px;               
+}
+
+.register-fieldset{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;   
+    color: whitesmoke;         
+}
+
+fieldset legend{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #B5C99A;
+    text-align: center;        
+    letter-spacing: 10px;
+}
+
+fieldset div{
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+    color: whitesmoke;
+    font-size: 1.15rem;
+    letter-spacing: 2px;
+}
+
+.gender label{
+    display: inline;
+}
+
+input{
+    font-size: 1.25rem;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input:focus{
+    color: white;
+    background-color: #B5C99A;
+}
+
+.gender input{
+    width: 20px;
+    height: 20px;
+    accent-color:black (101, 0, 0);   
+}
+
+.buttons{
+    width: 100%;
+    justify-self: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20%;
+    box-sizing: border-box;
+    margin: 0px;
+}
+button{
+    font-size: 1.25rem;
+    padding: 5px 10px;
+    border: none;
+    background-color: #B5C99A;
+    border-radius: 10px 8px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+button:hover{
+    color: whitesmoke;
+}
+
+button:active{
+    color: #FFC95F;
+}
+
+.register a{
+    text-decoration: underline;
+    color: #B5C99A;
+    font-size: 1.25rem;
+    font-style: italic;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
